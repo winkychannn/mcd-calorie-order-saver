@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750" width="900" height="750" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica, Arial, sans-serif">
+<rect width="900" height="750" rx="10" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="26" y="34" font-size="17" font-weight="700" fill="#1F2328">六步工作流 —— 每一步都对应真实的 MCP 调用</text>
+<rect x="26" y="54" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="54" width="5" height="96" rx="2.5" fill="#8C959F"/>
+<circle cx="60" cy="102" r="15" fill="#8C959F"/>
+<text x="60" y="107" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="86" y="84" font-size="14.5" font-weight="700" fill="#1F2328">采集目标</text>
+<rect x="86.0" y="94" width="46.8" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="109" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">热量目标</text>
+<rect x="139.8" y="94" width="46.8" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="148.8" y="109" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">预算上限</text>
+<rect x="193.6" y="94" width="82.8" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="202.6" y="109" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">位置 / 取餐方式</text>
+<text x="86" y="135" font-size="11.5" fill="#8C959F">一次只问 1~2 个；用户说「随便」就给默认档并说明</text>
+<rect x="26" y="164" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="164" width="5" height="96" rx="2.5" fill="#DA291C"/>
+<circle cx="60" cy="212" r="15" fill="#DA291C"/>
+<text x="60" y="217" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="86" y="194" font-size="14.5" font-weight="700" fill="#1F2328">热量匹配（含套餐拆解）</text>
+<rect x="86.0" y="204" width="162.0" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="219" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">list-nutrition-foods</text>
+<rect x="255.0" y="204" width="97.2" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="264.0" y="219" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-meals</text>
+<rect x="359.2" y="204" width="140.4" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="368.2" y="219" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-meal-detail</text>
+<text x="86" y="245" font-size="11.5" fill="#8C959F">套餐按 rounds[] 拆组件求和；查不到营养数据的组件如实标注，不猜</text>
+<rect x="26" y="274" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="274" width="5" height="96" rx="2.5" fill="#FFC72C"/>
+<circle cx="60" cy="322" r="15" fill="#FFC72C"/>
+<text x="60" y="327" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="86" y="304" font-size="14.5" font-weight="700" fill="#1F2328">价格与优惠券核算</text>
+<rect x="86.0" y="314" width="140.4" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="329" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">available-coupons</text>
+<rect x="233.4" y="314" width="133.2" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="242.4" y="329" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-my-coupons</text>
+<rect x="373.6" y="314" width="154.8" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="382.6" y="329" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-store-coupons</text>
+<text x="86" y="355" font-size="11.5" fill="#8C959F">券按当次门店复核，实付＝原价−券；每次推荐必带 热量 / 原价 / 券后实付</text>
+<rect x="26" y="384" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="384" width="5" height="96" rx="2.5" fill="#FFC72C"/>
+<circle cx="60" cy="432" r="15" fill="#FFC72C"/>
+<text x="60" y="437" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="86" y="414" font-size="14.5" font-weight="700" fill="#1F2328">确认门店与取餐方式</text>
+<rect x="86.0" y="424" width="154.8" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="439" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-nearby-stores</text>
+<rect x="247.8" y="424" width="126.0" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="256.8" y="439" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">calculate-price</text>
+<text x="86" y="465" font-size="11.5" fill="#8C959F">takeWayCode 一律取当次返回，各店取值不同，绝不硬编码</text>
+<rect x="26" y="494" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="494" width="5" height="96" rx="2.5" fill="#0969DA"/>
+<circle cx="60" cy="542" r="15" fill="#0969DA"/>
+<text x="60" y="547" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="86" y="524" font-size="14.5" font-weight="700" fill="#1F2328">复价确认</text>
+<rect x="86.0" y="534" width="126.0" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="549" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">calculate-price</text>
+<text x="86" y="575" font-size="11.5" fill="#8C959F">用官方算价接口复核终价；套餐替换过组件时必须复价</text>
+<rect x="26" y="604" width="848" height="96" rx="9" fill="#FAFBFC" stroke="#E8EAED"/>
+<rect x="26" y="604" width="5" height="96" rx="2.5" fill="#1A7F37"/>
+<circle cx="60" cy="652" r="15" fill="#1A7F37"/>
+<text x="60" y="657" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="86" y="634" font-size="14.5" font-weight="700" fill="#1F2328">创建订单 → 支付</text>
+<rect x="86.0" y="644" width="104.4" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="95.0" y="659" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">create-order</text>
+<rect x="197.4" y="644" width="97.2" height="21" rx="10.5" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="206.4" y="659" font-size="11.5" fill="#1F2328" font-family="SFMono-Regular, Consolas, monospace">query-order</text>
+<text x="86" y="685" font-size="11.5" fill="#8C959F">未经用户明确确认绝不调用；先问选哪一档，再建单</text>
+<text x="26" y="736" font-size="11.5" fill="#DA291C">⚠️ 第 6 步是真实扣款动作：确认前只给方案，确认后才建单；订单创建后由用户自行完成支付。</text>
+</svg>

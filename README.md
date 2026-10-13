@@ -53,6 +53,10 @@
 
 取舍摆明给你看，选哪个你说了算。
 
+![热量×价格散点图](docs/plan-scatter.svg)
+
+*广州华夏路餐厅「500 kcal / 30 元」真实场景：红色区域是目标区间，四个彩色点是引擎给出的推荐档。两个「随心配」套餐落进区间、13.9 元起，而同热量的单点组合普遍要 22~27 元——这就是把套餐拆开算的价值。*
+
 ### 3. 不回避"凑不出来"
 
 目标达不成时，它给你几个可执行方向（放宽热量 / 换低卡主食 / 拆成轻组合），而不是硬塞一个离谱的组合。也不会对你说"你目标定得太苛刻了"——只讲菜单，不评价人。
@@ -134,22 +138,9 @@ git clone https://github.com/winkychannn/mcd-calorie-order-saver.git \
 
 ## 工作流
 
-```
-用户给「热量目标 + 预算」
-        │
-        ├─ 1. 定位门店        query-nearby-stores
-        ├─ 2. 拉菜单          query-meals
-        ├─ 3. 拉营养表        list-nutrition-foods
-        ├─ 4. 拆套餐          query-meal-detail   ← 组件热量求和
-        │      ↓
-        │   scripts/optimize.py  ← 归一化匹配 + 套餐拆解 + 双约束组合搜索
-        │      ↓
-        ├─ 5. 券匹配          available-coupons / query-my-coupons
-        │                     query-store-coupons
-        ├─ 6. 确认门店与取餐方式  query-nearby-stores / delivery-query-addresses
-        ├─ 7. 复价确认        calculate-price
-        └─ 8. 下单            create-order → 支付链接
-```
+![六步工作流](docs/flow.svg)
+
+引擎 `scripts/optimize.py` 在第 2 步本地完成归一化匹配与双约束组合搜索（约 2000 个候选方案），MCP 只负责取数与算价——所以推荐过程快、可复现，`tests/` 里就是可重跑的样本。
 
 ## 目录结构
 
@@ -157,18 +148,19 @@ git clone https://github.com/winkychannn/mcd-calorie-order-saver.git \
 .
 ├── SKILL.md                    # 技能主入口（六步工作流 + 语气基线 + 合规红线）
 ├── scripts/
-│   └── optimize.py             # 组合优化引擎（纯标准库，无依赖）
+│   ├── optimize.py             # 组合优化引擎（纯标准库，无依赖）
+│   └── make_figures.py         # 重新生成 README 配图（读 tests/ 真实数据）
+├── docs/                       # README 配图（由 make_figures.py 生成）
 ├── references/
 │   ├── mcp-playbook.md         # MCP 工具字段、套餐拆解口径与实测坑位
 │   ├── nutrition-guide.md      # 热量分层、套餐配比与搭配原则
 │   └── personas.md             # 语气库、套餐话术与合规边界
-├── tests/
-│   ├── sample-input.json       # 真实 MCP 数据样本（54 单品 + 4 套餐）
-│   └── sample-output.json      # 引擎输出
+├── tests/                      # 真实 MCP 数据样本与引擎输出（含端到端下单记录）
 ├── MCP_INTEGRATION.md
 ├── CONTEST_DECLARATION.md
 ├── mcp-config.example.json
-└── workbuddy.md
+├── workbuddy.md
+└── LICENSE
 ```
 
 ## 引擎单独跑

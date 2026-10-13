@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica, Arial, sans-serif">
+<rect width="900" height="520" rx="10" fill="#FFFFFF" stroke="#E8EAED"/>
+<text x="74" y="30" font-size="17" font-weight="700" fill="#1F2328">热量 × 价格 —— 真实菜单里的可选空间</text>
+<text x="74" y="50" font-size="12" fill="#8C959F">麦当劳广州华夏路餐厅（storeCode 1400205）· 63 项菜单 / 5 个套餐 · 共评估 1984 个方案</text>
+<rect x="352.2" y="130.3" width="139.1" height="331.7" fill="#DA291C" fill-opacity="0.13" stroke="#DA291C" stroke-opacity="0.35" stroke-dasharray="4 3"/>
+<text x="346.2" y="454.0" font-size="11" fill="#DA291C" font-weight="600" text-anchor="end">目标区间 400~600 kcal</text>
+<line x1="74.0" y1="64.0" x2="74.0" y2="462.0" stroke="#E8EAED"/>
+<text x="74.0" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">0</text>
+<line x1="143.5" y1="64.0" x2="143.5" y2="462.0" stroke="#E8EAED"/>
+<text x="143.5" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">100</text>
+<line x1="213.1" y1="64.0" x2="213.1" y2="462.0" stroke="#E8EAED"/>
+<text x="213.1" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">200</text>
+<line x1="282.6" y1="64.0" x2="282.6" y2="462.0" stroke="#E8EAED"/>
+<text x="282.6" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">300</text>
+<line x1="352.2" y1="64.0" x2="352.2" y2="462.0" stroke="#E8EAED"/>
+<text x="352.2" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">400</text>
+<line x1="421.7" y1="64.0" x2="421.7" y2="462.0" stroke="#E8EAED"/>
+<text x="421.7" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">500</text>
+<line x1="491.3" y1="64.0" x2="491.3" y2="462.0" stroke="#E8EAED"/>
+<text x="491.3" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">600</text>
+<line x1="560.8" y1="64.0" x2="560.8" y2="462.0" stroke="#E8EAED"/>
+<text x="560.8" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">700</text>
+<line x1="630.4" y1="64.0" x2="630.4" y2="462.0" stroke="#E8EAED"/>
+<text x="630.4" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">800</text>
+<line x1="699.9" y1="64.0" x2="699.9" y2="462.0" stroke="#E8EAED"/>
+<text x="699.9" y="480.0" font-size="11" fill="#8C959F" text-anchor="middle">900</text>
+<line x1="74.0" y1="462.0" x2="686.0" y2="462.0" stroke="#E8EAED"/>
+<text x="64.0" y="466.0" font-size="11" fill="#8C959F" text-anchor="end">0</text>
+<line x1="74.0" y1="406.7" x2="686.0" y2="406.7" stroke="#E8EAED"/>
+<text x="64.0" y="410.7" font-size="11" fill="#8C959F" text-anchor="end">5</text>
+<line x1="74.0" y1="351.4" x2="686.0" y2="351.4" stroke="#E8EAED"/>
+<text x="64.0" y="355.4" font-size="11" fill="#8C959F" text-anchor="end">10</text>
+<line x1="74.0" y1="296.2" x2="686.0" y2="296.2" stroke="#E8EAED"/>
+<text x="64.0" y="300.2" font-size="11" fill="#8C959F" text-anchor="end">15</text>
+<line x1="74.0" y1="240.9" x2="686.0" y2="240.9" stroke="#E8EAED"/>
+<text x="64.0" y="244.9" font-size="11" fill="#8C959F" text-anchor="end">20</text>
+<line x1="74.0" y1="185.6" x2="686.0" y2="185.6" stroke="#E8EAED"/>
+<text x="64.0" y="189.6" font-size="11" fill="#8C959F" text-anchor="end">25</text>
+<line x1="74.0" y1="130.3" x2="686.0" y2="130.3" stroke="#E8EAED"/>
+<text x="64.0" y="134.3" font-size="11" fill="#8C959F" text-anchor="end">30</text>
+<line x1="74.0" y1="75.1" x2="686.0" y2="75.1" stroke="#E8EAED"/>
+<text x="64.0" y="79.1" font-size="11" fill="#8C959F" text-anchor="end">35</text>
+<line x1="74.0" y1="462.0" x2="686.0" y2="462.0" stroke="#1F2328" stroke-width="1.2"/>
+<line x1="74.0" y1="64.0" x2="74.0" y2="462.0" stroke="#1F2328" stroke-width="1.2"/>
+<text x="380.0" y="504.0" font-size="12" fill="#1F2328" text-anchor="middle">热量（kcal）</text>
+<text x="16" y="263.0" font-size="12" fill="#1F2328" text-anchor="middle" transform="rotate(-90 16 263.0)">实付价格（元）</text>
+<line x1="74.0" y1="130.3" x2="686.0" y2="130.3" stroke="#DA291C" stroke-width="1.6" stroke-dasharray="7 4"/>
+<text x="82.0" y="123.3" font-size="11.5" fill="#DA291C" font-weight="600">预算上限 30 元</text>
+<line x1="421.7" y1="64.0" x2="421.7" y2="462.0" stroke="#0969DA" stroke-width="1.4" stroke-dasharray="7 4"/>
+<text x="415.7" y="78.0" font-size="11.5" fill="#0969DA" font-weight="600" text-anchor="end">目标 500 kcal</text>
+<circle cx="74.0" cy="379.1" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="83.0" cy="357.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="176.2" cy="357.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="155.4" cy="357.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="75.4" cy="345.9" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="163.7" cy="340.4" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="83.0" cy="330.4" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="188.8" cy="318.3" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="196.4" cy="308.3" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="203.4" cy="308.3" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="170.7" cy="296.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="183.2" cy="286.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="190.1" cy="229.8" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="212.4" cy="229.8" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="330.6" cy="279.6" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="311.8" cy="229.8" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="300.0" cy="218.8" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="411.3" cy="213.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="372.3" cy="207.7" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="345.9" cy="202.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="411.3" cy="196.7" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="381.4" cy="185.6" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="430.8" cy="169.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="416.9" cy="169.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="558.0" cy="113.8" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="565.7" cy="80.6" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="138.7" cy="406.7" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="96.3" cy="384.6" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="235.3" cy="368.0" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="110.9" cy="318.3" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="270.1" cy="318.3" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="222.1" cy="307.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="341.8" cy="307.2" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="229.8" cy="301.7" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="275.0" cy="301.7" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="207.5" cy="290.6" r="3.4" fill="#8C959F" fill-opacity="0.5"/>
+<circle cx="395.3" cy="224.3" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="411.3" cy="196.7" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="416.9" cy="169.0" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="412.0" cy="174.6" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="432.9" cy="174.6" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="430.8" cy="169.0" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="420.3" cy="158.0" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="372.3" cy="207.7" r="5.2" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<circle cx="423.1" cy="308.3" r="7.6" fill="#DA291C" stroke="#FFFFFF" stroke-width="2"/>
+<text x="431.1" y="328.3" font-size="11.5" font-weight="600" fill="#DA291C" text-anchor="start">精选超值随心配 13.9元</text>
+<circle cx="474.6" cy="297.3" r="7.6" fill="#E8862A" stroke="#FFFFFF" stroke-width="2"/>
+<text x="483.6" y="289.3" font-size="11.5" font-weight="600" fill="#E8862A" text-anchor="start">人气经典随心配 14.9元</text>
+<circle cx="411.3" cy="213.2" r="7.6" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+<text x="402.3" y="217.2" font-size="11.5" font-weight="600" fill="#0969DA" text-anchor="end">麦辣鸡腿汉堡 22.5元</text>
+<circle cx="525.4" cy="185.6" r="7.6" fill="#1A7F37" stroke="#FFFFFF" stroke-width="2"/>
+<text x="534.4" y="189.6" font-size="11.5" font-weight="600" fill="#1A7F37" text-anchor="start">麦乐鸡经典中套餐 25元</text>
+<text x="708" y="76" font-size="12.5" font-weight="700" fill="#1F2328">图例</text>
+<circle cx="713" cy="96" r="3.4" fill="#8C959F" fill-opacity="0.6"/>
+<text x="726" y="100" font-size="11.5" fill="#1F2328">在售单品（36 项）</text>
+<circle cx="713" cy="121" r="5" fill="#FFFFFF" stroke="#8C959F" stroke-width="1.6"/>
+<text x="726" y="125" font-size="11.5" fill="#1F2328">备选方案</text>
+<circle cx="713" cy="146" r="6.4" fill="#DA291C"/>
+<text x="726" y="150" font-size="11.5" fill="#1F2328">最贴热量</text>
+<circle cx="713" cy="171" r="6.4" fill="#E8862A"/>
+<text x="726" y="175" font-size="11.5" fill="#1F2328">最省钱</text>
+<circle cx="713" cy="196" r="6.4" fill="#0969DA"/>
+<text x="726" y="200" font-size="11.5" fill="#1F2328">最平衡</text>
+<circle cx="713" cy="221" r="6.4" fill="#1A7F37"/>
+<text x="726" y="225" font-size="11.5" fill="#1F2328">套餐优选</text>
+<text x="708" y="262.0" font-size="11" fill="#8C959F">要点：右下角越靠右下＝越省越饱</text>
+<text x="708" y="280.0" font-size="11" fill="#8C959F">两个「随心配」落在区间内、¥13.9 起</text>
+<text x="708" y="298.0" font-size="11" fill="#8C959F">同热量单点组合普遍 ¥22~27</text>
+</svg>
