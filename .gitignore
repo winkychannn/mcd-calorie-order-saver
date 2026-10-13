@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# WorkBuddy 本地配置与工作记忆（不随仓库发布）
+.workbuddy/
+
+# 本地环境变量文件（切勿提交真实 Token）
+.env
+.env.local

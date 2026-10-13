@@ -1,0 +1,67 @@
+{
+  "_note": "端到端下单实测记录：真实调用 create-order 成功创建的订单（未支付）。用于验证『推荐 → 复价 → 下单』闭环。支付链接 payH5Url 已隐去。",
+  "_tested_at": "2026-10-13 14:25:20",
+  "_scenario": "广州珠江新城，目标 500 kcal / 30 元，到店自取",
+  "request": {
+    "storeCode": "1400205",
+    "orderType": 1,
+    "beType": 1,
+    "takeWayCode": "take-in-store",
+    "items": [
+      {
+        "productCode": "9900015568",
+        "quantity": 1,
+        "roundList": [
+          { "round": "1", "comboItemList": [{ "code": "521156", "quantity": 1 }] },
+          { "round": "2", "comboItemList": [{ "code": "515281", "quantity": 1 }] }
+        ]
+      }
+    ]
+  },
+  "response_summary": {
+    "success": true,
+    "code": 200,
+    "orderId": "1030448050000795664976590909",
+    "payId": "111030124086230880256",
+    "payH5Url": "(已隐去)",
+    "orderDetail": {
+      "storeName": "麦当劳广州华夏路餐厅",
+      "storeAddress": "珠江新城花城大道高德置地广场春商场第B2麦当劳",
+      "orderStatus": "待支付",
+      "status": "10",
+      "takeWay": "外带",
+      "orderProductList": [
+        {
+          "productName": "精选超值随心配",
+          "quantity": 1,
+          "price": "13.9",
+          "comboItemList": [
+            { "itemName": "那么大鸡排（椒盐风味）", "itemQuantity": 1 },
+            { "itemName": "阳光柠檬红茶中杯", "itemQuantity": 1 }
+          ]
+        }
+      ],
+      "totalAmount": "13.9",
+      "realTotalAmount": "13.9",
+      "totalDiscountAmount": "0",
+      "couponList": [],
+      "needTableware": false,
+      "createTime": "2026-10-13 14:25:20",
+      "expirePayTime": "2026-10-13 14:40:20"
+    }
+  },
+  "final_state": {
+    "queried_at": "2026-10-13 14:30:41",
+    "orderStatus": "订单已取消",
+    "status": "60",
+    "note": "用户手动取消测试订单；query-order 正确读到取消状态。整个验收过程无费用产生。"
+  },
+  "verified_contracts": [
+    "套餐下单必须传 roundList：{round:'<rounds[].id 的字符串>', comboItemList:[{code,quantity}]}，实测 round='1'/'2' 有效",
+    "modification 默认可不传：用户未改特调时组件走默认值",
+    "needTableware 选填，不传则订单返回 false",
+    "本店 takeWayList = [eat-in(堂食), take-in-store(店内自提)]；code 各门店不一致，须以当次返回为准",
+    "支付链接有效期实测约 15 分钟（14:25:20 → 14:40:20）",
+    "orderStatus 返回中文文案，status 数字码与文档口径不一致（实测 待支付=10、已取消=60）→ 判断订单状态一律用 orderStatus"
+  ]
+}

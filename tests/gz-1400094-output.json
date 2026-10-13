@@ -1,0 +1,1068 @@
+{
+  "summary": {
+    "target_kcal": 200.0,
+    "kcal_tolerance": 0.2,
+    "kcal_range": [
+      160.0,
+      240.0
+    ],
+    "budget_yuan": 20.0,
+    "nutrition_entries": 135,
+    "menu_entries": 62,
+    "combo_entries": 2,
+    "matched": 38,
+    "matched_combos": 2,
+    "unmatched": 18,
+    "assembled_plans": 2178,
+    "combo_plans": 2,
+    "total_plans_evaluated": 2180
+  },
+  "matched": [
+    {
+      "code": "9900008751",
+      "name": "可乐",
+      "kcal": 147.0,
+      "price": 9.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 36.0,
+      "sodium": 0.0,
+      "calcium": 10.0
+    },
+    {
+      "code": "3010",
+      "name": "雪碧",
+      "kcal": 105.0,
+      "price": 9.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 26.0,
+      "sodium": 29.0,
+      "calcium": 0.0
+    },
+    {
+      "code": "515280",
+      "name": "阳光柠檬红茶",
+      "kcal": 117.0,
+      "price": 9.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 29.0,
+      "sodium": 17.0,
+      "calcium": 0.0
+    },
+    {
+      "code": "520689",
+      "name": "鲜萃咖啡",
+      "kcal": 13.0,
+      "price": 9.5,
+      "role": "drink",
+      "protein": 1.0,
+      "fat": 0.0,
+      "carbohydrate": 0.0,
+      "sodium": 3.0,
+      "calcium": 8.0
+    },
+    {
+      "code": "3755",
+      "name": "纯牛奶(盒装)",
+      "kcal": 129.0,
+      "price": 10.5,
+      "role": "drink",
+      "protein": 7.0,
+      "fat": 7.0,
+      "carbohydrate": 10.0,
+      "sodium": 73.0,
+      "calcium": 231.0
+    },
+    {
+      "code": "3505",
+      "name": "锡兰红茶",
+      "kcal": 2.0,
+      "price": 11.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 0.0,
+      "sodium": 0.0,
+      "calcium": 5.0
+    },
+    {
+      "code": "6362",
+      "name": "100% 苹果汁(盒装)",
+      "kcal": 88.0,
+      "price": 11.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 21.0,
+      "sodium": 0.0,
+      "calcium": 0.0
+    },
+    {
+      "code": "515520",
+      "name": "怡泉+C",
+      "kcal": 110.0,
+      "price": 11.5,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 27.0,
+      "sodium": 0.0,
+      "calcium": 0.0
+    },
+    {
+      "code": "507411",
+      "name": "麦咖啡™美式",
+      "kcal": 13.0,
+      "price": 11.9,
+      "role": "drink",
+      "protein": 1.0,
+      "fat": 0.0,
+      "carbohydrate": 2.0,
+      "sodium": 0.0,
+      "calcium": 7.0
+    },
+    {
+      "code": "2430",
+      "name": "【美汁源】“黄金橙橙”",
+      "kcal": 165.0,
+      "price": 13.0,
+      "role": "drink",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 41.0,
+      "sodium": 53.0,
+      "calcium": 0.0
+    },
+    {
+      "code": "6352",
+      "name": "阳光橙麦炫酷",
+      "kcal": 228.0,
+      "price": 13.0,
+      "role": "drink",
+      "protein": 1.0,
+      "fat": 2.0,
+      "carbohydrate": 50.0,
+      "sodium": 77.0,
+      "calcium": 52.0
+    },
+    {
+      "code": "507409",
+      "name": "麦咖啡™奶铁",
+      "kcal": 186.0,
+      "price": 13.9,
+      "role": "drink",
+      "protein": 11.0,
+      "fat": 8.0,
+      "carbohydrate": 17.0,
+      "sodium": 99.0,
+      "calcium": 320.0
+    },
+    {
+      "code": "515946",
+      "name": "浓浓黑巧（冰/热）",
+      "kcal": 176.0,
+      "price": 13.9,
+      "role": "drink",
+      "protein": 10.0,
+      "fat": 8.0,
+      "carbohydrate": 15.0,
+      "sodium": 101.0,
+      "calcium": 319.0
+    },
+    {
+      "code": "514851",
+      "name": "咖啡阿芙佳朵",
+      "kcal": 139.0,
+      "price": 15.0,
+      "role": "drink",
+      "protein": 4.0,
+      "fat": 4.0,
+      "carbohydrate": 21.0,
+      "sodium": 49.0,
+      "calcium": 111.0
+    },
+    {
+      "code": "507389",
+      "name": "浓缩咖啡",
+      "kcal": 13.0,
+      "price": 15.0,
+      "role": "drink",
+      "protein": 1.0,
+      "fat": 0.0,
+      "carbohydrate": 2.0,
+      "sodium": 0.0,
+      "calcium": 7.0
+    },
+    {
+      "code": "515955",
+      "name": "浓浓燕麦黑巧（冰/热）",
+      "kcal": 157.0,
+      "price": 15.9,
+      "role": "drink",
+      "protein": 3.0,
+      "fat": 6.0,
+      "carbohydrate": 21.0,
+      "sodium": 114.0,
+      "calcium": 344.0
+    },
+    {
+      "code": "510488",
+      "name": "燕麦奶",
+      "kcal": 199.0,
+      "price": 21.0,
+      "role": "drink",
+      "protein": 4.0,
+      "fat": 8.0,
+      "carbohydrate": 26.0,
+      "sodium": 145.0,
+      "calcium": 438.0
+    },
+    {
+      "code": "1450",
+      "name": "麦香鸡",
+      "kcal": 369.0,
+      "price": 17.0,
+      "role": "main",
+      "protein": 15.0,
+      "fat": 17.0,
+      "carbohydrate": 39.0,
+      "sodium": 731.0,
+      "calcium": 73.0
+    },
+    {
+      "code": "1440",
+      "name": "麦辣鸡腿汉堡",
+      "kcal": 485.0,
+      "price": 22.5,
+      "role": "main",
+      "protein": 24.0,
+      "fat": 24.0,
+      "carbohydrate": 42.0,
+      "sodium": 1208.0,
+      "calcium": 154.0
+    },
+    {
+      "code": "1600",
+      "name": "麦香鱼",
+      "kcal": 325.0,
+      "price": 22.5,
+      "role": "main",
+      "protein": 16.0,
+      "fat": 13.0,
+      "carbohydrate": 35.0,
+      "sodium": 556.0,
+      "calcium": 99.0
+    },
+    {
+      "code": "1120",
+      "name": "双层吉士汉堡",
+      "kcal": 429.0,
+      "price": 23.0,
+      "role": "main",
+      "protein": 27.0,
+      "fat": 22.0,
+      "carbohydrate": 31.0,
+      "sodium": 1017.0,
+      "calcium": 232.0
+    },
+    {
+      "code": "1406",
+      "name": "板烧鸡腿堡",
+      "kcal": 391.0,
+      "price": 23.5,
+      "role": "main",
+      "protein": 23.0,
+      "fat": 17.0,
+      "carbohydrate": 35.0,
+      "sodium": 1041.0,
+      "calcium": 93.0
+    },
+    {
+      "code": "9900003586",
+      "name": "双层深海鳕鱼堡",
+      "kcal": 485.0,
+      "price": 24.0,
+      "role": "main",
+      "protein": 28.0,
+      "fat": 21.0,
+      "carbohydrate": 46.0,
+      "sodium": 917.0,
+      "calcium": 147.0
+    },
+    {
+      "code": "1106",
+      "name": "培根蔬萃双层牛堡",
+      "kcal": 442.0,
+      "price": 24.5,
+      "role": "main",
+      "protein": 24.0,
+      "fat": 23.0,
+      "carbohydrate": 34.0,
+      "sodium": 728.0,
+      "calcium": 73.0
+    },
+    {
+      "code": "1100",
+      "name": "巨无霸",
+      "kcal": 513.0,
+      "price": 25.5,
+      "role": "main",
+      "protein": 27.0,
+      "fat": 26.0,
+      "carbohydrate": 42.0,
+      "sodium": 961.0,
+      "calcium": 171.0
+    },
+    {
+      "code": "4648",
+      "name": "不素之霸双层牛堡",
+      "kcal": 493.0,
+      "price": 26.5,
+      "role": "main",
+      "protein": 28.0,
+      "fat": 27.0,
+      "carbohydrate": 34.0,
+      "sodium": 1012.0,
+      "calcium": 75.0
+    },
+    {
+      "code": "511782",
+      "name": "芝士安格斯厚牛堡",
+      "kcal": 696.0,
+      "price": 31.5,
+      "role": "main",
+      "protein": 32.0,
+      "fat": 44.0,
+      "carbohydrate": 43.0,
+      "sodium": 897.0,
+      "calcium": 150.0
+    },
+    {
+      "code": "511781",
+      "name": "培根安格斯厚牛堡",
+      "kcal": 707.0,
+      "price": 34.5,
+      "role": "main",
+      "protein": 34.0,
+      "fat": 44.0,
+      "carbohydrate": 43.0,
+      "sodium": 1037.0,
+      "calcium": 161.0
+    },
+    {
+      "code": "515837",
+      "name": "圆筒冰淇淋",
+      "kcal": 93.0,
+      "price": 5.0,
+      "role": "side",
+      "protein": 2.0,
+      "fat": 3.0,
+      "carbohydrate": 14.0,
+      "sodium": 36.0,
+      "calcium": 77.0
+    },
+    {
+      "code": "6102",
+      "name": "苹果片",
+      "kcal": 32.0,
+      "price": 7.0,
+      "role": "side",
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbohydrate": 7.0,
+      "sodium": 0.0,
+      "calcium": 18.0
+    },
+    {
+      "code": "9900008752",
+      "name": "派",
+      "kcal": 232.0,
+      "price": 8.5,
+      "role": "side",
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbohydrate": 28.0,
+      "sodium": 159.0,
+      "calcium": 7.0
+    },
+    {
+      "code": "9900008745",
+      "name": "新地",
+      "kcal": 282.0,
+      "price": 12.0,
+      "role": "side",
+      "protein": 5.0,
+      "fat": 9.0,
+      "carbohydrate": 44.0,
+      "sodium": 126.0,
+      "calcium": 182.0
+    },
+    {
+      "code": "4437",
+      "name": "玉米杯",
+      "kcal": 53.0,
+      "price": 13.0,
+      "role": "side",
+      "protein": 2.0,
+      "fat": 1.0,
+      "carbohydrate": 7.0,
+      "sodium": 1.0,
+      "calcium": 6.0
+    },
+    {
+      "code": "4810",
+      "name": "薯条",
+      "kcal": 289.0,
+      "price": 13.5,
+      "role": "side",
+      "protein": 4.0,
+      "fat": 12.0,
+      "carbohydrate": 38.0,
+      "sodium": 165.0,
+      "calcium": 18.0
+    },
+    {
+      "code": "1401",
+      "name": "麦乐鸡",
+      "kcal": 213.0,
+      "price": 14.0,
+      "role": "side",
+      "protein": 12.0,
+      "fat": 12.0,
+      "carbohydrate": 13.0,
+      "sodium": 422.0,
+      "calcium": 9.0
+    },
+    {
+      "code": "521156",
+      "name": "那么大鸡排（椒盐风味）",
+      "kcal": 385.0,
+      "price": 14.0,
+      "role": "side",
+      "protein": 24.0,
+      "fat": 21.0,
+      "carbohydrate": 24.0,
+      "sodium": 996.0,
+      "calcium": 13.0
+    },
+    {
+      "code": "1700",
+      "name": "麦辣鸡翅",
+      "kcal": 224.0,
+      "price": 15.0,
+      "role": "side",
+      "protein": 13.0,
+      "fat": 15.0,
+      "carbohydrate": 9.0,
+      "sodium": 537.0,
+      "calcium": 13.0
+    },
+    {
+      "code": "520445",
+      "name": "薄皮焦香V翅",
+      "kcal": 192.0,
+      "price": 16.0,
+      "role": "side",
+      "protein": 17.0,
+      "fat": 11.0,
+      "carbohydrate": 6.0,
+      "sodium": 594.0,
+      "calcium": 15.0
+    }
+  ],
+  "matched_combos": [
+    {
+      "code": "9900015568",
+      "name": "精选超值随心配",
+      "kcal": 502.0,
+      "price": 13.9,
+      "role": "combo",
+      "components": [
+        {
+          "code": "521156",
+          "name": "那么大鸡排（椒盐风味）",
+          "role": "side",
+          "kcal": 385.0
+        },
+        {
+          "code": "515281",
+          "name": "阳光柠檬红茶中杯",
+          "role": "drink",
+          "kcal": 117.0
+        }
+      ],
+      "substituted": [],
+      "price_estimated": false,
+      "single_sum": null,
+      "savings": null
+    },
+    {
+      "code": "9900013304",
+      "name": "人气经典随心配",
+      "kcal": 576.0,
+      "price": 14.9,
+      "role": "combo",
+      "components": [
+        {
+          "code": "1120",
+          "name": "双层吉士汉堡",
+          "role": "main",
+          "kcal": 429.0
+        },
+        {
+          "code": "3050",
+          "name": "可乐中杯",
+          "role": "drink",
+          "kcal": 147.0
+        }
+      ],
+      "substituted": [
+        "可乐麦炫酷 → 可乐中杯"
+      ],
+      "price_estimated": true,
+      "single_sum": null,
+      "savings": null
+    }
+  ],
+  "unmatched": [
+    {
+      "code": "521316",
+      "name": "高达吉士双牛堡",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "521952",
+      "name": "龙焰鸡腿堡",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "521953",
+      "name": "龙焰芝士棒鸡腿堡",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "9900008747",
+      "name": "牛肉堡单品精选",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "9900008746",
+      "name": "鸡肉堡单品精选",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "9900005432",
+      "name": "麦麦脆汁鸡1块",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "9900008754",
+      "name": "经典麦旋风",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "521951",
+      "name": "灰焰圆筒",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "521950",
+      "name": "蓝莓爆爆珠麦旋风",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "521986",
+      "name": "马苏里拉拉丝芝士条",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "9900016082",
+      "name": "心形薯饼5块",
+      "reason": "营养表无匹配",
+      "role": "side"
+    },
+    {
+      "code": "521901",
+      "name": "月下相思扭扭薯",
+      "reason": "营养表无匹配",
+      "role": "main"
+    },
+    {
+      "code": "521817",
+      "name": "【美汁源】“多汁柠柠”",
+      "reason": "营养表无匹配",
+      "role": "drink"
+    },
+    {
+      "code": "510479",
+      "name": "燕麦奶铁",
+      "reason": "营养表无匹配",
+      "role": "drink"
+    },
+    {
+      "code": "521791",
+      "name": "茉莉奶绿雪冰",
+      "reason": "营养表无匹配",
+      "role": "drink"
+    },
+    {
+      "code": "521871",
+      "name": "美禄可可雪冰",
+      "reason": "营养表无匹配",
+      "role": "drink"
+    },
+    {
+      "code": "9900015561",
+      "name": "麦咖啡冰爽一夏",
+      "reason": "营养表无匹配",
+      "role": "drink"
+    },
+    {
+      "code": "9900016076",
+      "name": "“我就喜欢”鸡薯双全盒",
+      "reason": "营养表无匹配",
+      "role": "main"
+    }
+  ],
+  "plans": [
+    {
+      "rank": 1,
+      "tag": "最贴热量",
+      "kind": "assemble",
+      "name": "麦香鱼",
+      "items": [
+        {
+          "code": "1600",
+          "name": "麦香鱼",
+          "kcal": 325.0,
+          "price": 22.5,
+          "role": "main",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 325.0,
+      "price": 22.5,
+      "kcal_gap": 125.0,
+      "kcal_pct": 162.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 2,
+      "tag": "最省钱",
+      "kind": "combo",
+      "name": "精选超值随心配",
+      "items": [
+        {
+          "code": "9900015568",
+          "name": "精选超值随心配",
+          "kcal": 502.0,
+          "price": 13.9,
+          "role": "combo",
+          "quantity": 1
+        }
+      ],
+      "components": [
+        {
+          "code": "521156",
+          "name": "那么大鸡排（椒盐风味）",
+          "role": "side",
+          "kcal": 385.0
+        },
+        {
+          "code": "515281",
+          "name": "阳光柠檬红茶中杯",
+          "role": "drink",
+          "kcal": 117.0
+        }
+      ],
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 502.0,
+      "price": 13.9,
+      "kcal_gap": 302.0,
+      "kcal_pct": 251.0,
+      "within_kcal": false,
+      "within_budget": true,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 3,
+      "tag": "最平衡",
+      "kind": "assemble",
+      "name": "麦香鸡",
+      "items": [
+        {
+          "code": "1450",
+          "name": "麦香鸡",
+          "kcal": 369.0,
+          "price": 17.0,
+          "role": "main",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 369.0,
+      "price": 17.0,
+      "kcal_gap": 169.0,
+      "kcal_pct": 184.5,
+      "within_kcal": false,
+      "within_budget": true,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 4,
+      "tag": "套餐优选",
+      "kind": "combo",
+      "name": "人气经典随心配",
+      "items": [
+        {
+          "code": "9900013304",
+          "name": "人气经典随心配",
+          "kcal": 576.0,
+          "price": 14.9,
+          "role": "combo",
+          "quantity": 1
+        }
+      ],
+      "components": [
+        {
+          "code": "1120",
+          "name": "双层吉士汉堡",
+          "role": "main",
+          "kcal": 429.0
+        },
+        {
+          "code": "3050",
+          "name": "可乐中杯",
+          "role": "drink",
+          "kcal": 147.0
+        }
+      ],
+      "substituted": [
+        "可乐麦炫酷 → 可乐中杯"
+      ],
+      "price_estimated": true,
+      "kcal": 576.0,
+      "price": 14.9,
+      "kcal_gap": 376.0,
+      "kcal_pct": 288.0,
+      "within_kcal": false,
+      "within_budget": true,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 5,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "板烧鸡腿堡",
+      "items": [
+        {
+          "code": "1406",
+          "name": "板烧鸡腿堡",
+          "kcal": 391.0,
+          "price": 23.5,
+          "role": "main",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 391.0,
+      "price": 23.5,
+      "kcal_gap": 191.0,
+      "kcal_pct": 195.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 6,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鸡 + 苹果片",
+      "items": [
+        {
+          "code": "1450",
+          "name": "麦香鸡",
+          "kcal": 369.0,
+          "price": 17.0,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "6102",
+          "name": "苹果片",
+          "kcal": 32.0,
+          "price": 7.0,
+          "role": "side",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 401.0,
+      "price": 24.0,
+      "kcal_gap": 201.0,
+      "kcal_pct": 200.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 7,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鱼 + 苹果片",
+      "items": [
+        {
+          "code": "1600",
+          "name": "麦香鱼",
+          "kcal": 325.0,
+          "price": 22.5,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "6102",
+          "name": "苹果片",
+          "kcal": 32.0,
+          "price": 7.0,
+          "role": "side",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 357.0,
+      "price": 29.5,
+      "kcal_gap": 157.0,
+      "kcal_pct": 178.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 8,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鸡 + 鲜萃咖啡",
+      "items": [
+        {
+          "code": "1450",
+          "name": "麦香鸡",
+          "kcal": 369.0,
+          "price": 17.0,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "520689",
+          "name": "鲜萃咖啡",
+          "kcal": 13.0,
+          "price": 9.5,
+          "role": "drink",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 382.0,
+      "price": 26.5,
+      "kcal_gap": 182.0,
+      "kcal_pct": 191.0,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 9,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鱼 + 鲜萃咖啡",
+      "items": [
+        {
+          "code": "1600",
+          "name": "麦香鱼",
+          "kcal": 325.0,
+          "price": 22.5,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "520689",
+          "name": "鲜萃咖啡",
+          "kcal": 13.0,
+          "price": 9.5,
+          "role": "drink",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 338.0,
+      "price": 32.0,
+      "kcal_gap": 138.0,
+      "kcal_pct": 169.0,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 10,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鸡 + 锡兰红茶",
+      "items": [
+        {
+          "code": "1450",
+          "name": "麦香鸡",
+          "kcal": 369.0,
+          "price": 17.0,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "3505",
+          "name": "锡兰红茶",
+          "kcal": 2.0,
+          "price": 11.5,
+          "role": "drink",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 371.0,
+      "price": 28.5,
+      "kcal_gap": 171.0,
+      "kcal_pct": 185.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 11,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "麦香鱼 + 锡兰红茶",
+      "items": [
+        {
+          "code": "1600",
+          "name": "麦香鱼",
+          "kcal": 325.0,
+          "price": 22.5,
+          "role": "main",
+          "quantity": 1
+        },
+        {
+          "code": "3505",
+          "name": "锡兰红茶",
+          "kcal": 2.0,
+          "price": 11.5,
+          "role": "drink",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 327.0,
+      "price": 34.0,
+      "kcal_gap": 127.0,
+      "kcal_pct": 163.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    },
+    {
+      "rank": 12,
+      "tag": "备选",
+      "kind": "assemble",
+      "name": "双层吉士汉堡",
+      "items": [
+        {
+          "code": "1120",
+          "name": "双层吉士汉堡",
+          "kcal": 429.0,
+          "price": 23.0,
+          "role": "main",
+          "quantity": 1
+        }
+      ],
+      "components": null,
+      "substituted": [],
+      "price_estimated": false,
+      "kcal": 429.0,
+      "price": 23.0,
+      "kcal_gap": 229.0,
+      "kcal_pct": 214.5,
+      "within_kcal": false,
+      "within_budget": false,
+      "savings_vs_single": null
+    }
+  ],
+  "advice": {
+    "kcal_status": "no_kcal_hit",
+    "budget_status": "ok",
+    "cheapest_price": 13.9,
+    "cheapest_kcal": 502.0,
+    "closest_kcal": 325.0,
+    "closest_kcal_gap": 125.0,
+    "combo_highlights": [
+      {
+        "name": "精选超值随心配",
+        "price": 13.9,
+        "kcal": 502.0,
+        "single_sum": null,
+        "savings": null,
+        "within_kcal": false,
+        "within_budget": true
+      },
+      {
+        "name": "人气经典随心配",
+        "price": 14.9,
+        "kcal": 576.0,
+        "single_sum": null,
+        "savings": null,
+        "within_kcal": false,
+        "within_budget": true
+      }
+    ],
+    "suggestions": [
+      "热量目标附近暂时没有合适组合。最接近的是 325.0 kcal（与目标差 125.0 kcal）。",
+      "方向一：把热量目标放宽到 325 kcal 左右，可选空间会明显变大。",
+      "方向二：当前菜单能凑出的最低热量是 325 kcal，已经高于目标，可以拆成「小食 + 饮品」的轻组合，或把目标上调一点。",
+      "方向三：把高热量主食换成低卡单品（如麦香鱼、板烧鸡腿堡、麦香鸡）再试一次。",
+      "顺带一提：这份菜单里有 2 个套餐可以拆开算，热门套餐通常比单点更划算，可以看看「套餐优选」那一档。"
+    ]
+  },
+  "disclaimer": "本结果基于麦当劳 MCP 实时数据计算，仅供搭配参考，不构成医疗或营养专业建议。价格与供应以麦当劳官方渠道为准。"
+}
